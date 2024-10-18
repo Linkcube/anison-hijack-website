@@ -3,8 +3,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        line-height: 50px;
-        height: 50px;
+        line-height: 40px;
+        height: 40px;
         margin-top: 150px;
         background: red;
         border: red;
@@ -12,6 +12,7 @@
         border-style: solid;
         border-bottom-width: 10px;
         min-width: 530px;
+        margin-bottom: 120px;
     }
 
     .logo-link {
@@ -40,18 +41,21 @@
         letter-spacing: 1px;
         border-right: 3px solid white;
         width: 100%;
-        text-align: center;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
-    .nav-img-container {
-        width: 50px;
-        flex: .5;
-        display: flex;
+    .nav-link:hover {
+        text-decoration-line: underline;
+        text-decoration-thickness: auto;
     }
 
     .nav-img {
         height: 100%;
-        width: 50px;
+        width: 40px;
     }
 
     @media (max-width: 1100px) {
@@ -64,11 +68,19 @@
         .logo-link, .nav-links-container {
             margin-left: 0;
         }
+
+        .layout-container {
+            margin-bottom: 50px;
+        }
     }
 
     @media (max-width: 800px) {
         .logo-img {
             display: none;
+        }
+
+        .layout-container {
+            margin-bottom: 0px;
         }
     }
 </style>
