@@ -1,10 +1,14 @@
 # Hijack Website
 
 ## A new website to update the styling and functionality of anisonhijack.moe
+
 ### Early Goals:
+
 - Replicate original website's functionality
 - Demonstrate understanding on hosting and updating processes
+
 ### Later Goals:
+
 - New styling
 - Integration with other Anison Hijack tools
 
