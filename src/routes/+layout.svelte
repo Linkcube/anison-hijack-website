@@ -24,7 +24,7 @@
 		justify-content: space-between;
 		line-height: 40px;
 		height: 40px;
-		margin-top: 150px;
+		margin-top: 110px;
 		background: red;
 		border: red;
 		border-top-width: 10px;
